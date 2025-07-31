@@ -1,0 +1,7 @@
+example||example1||Thu Jul 31 07:14:40 2025
+example 2||example222222222||Thu Jul 31 06:44:31 2025
+feifan qi||feifan qi qife@oregonstate.edu||Thu Jul 31 07:10:17 2025
+isaac 1111||isaac123456 ||Thu Jul 31 07:32:02 2025
+123456||654321||Thu Jul 31 07:32:37 2025
+long note||This is a long note that includes multiple lines of thoughts, ideas, and examples. It's made to test how well the terminal interface displays long content. Let's see how this looks on screen!||Thu Jul 31 07:55:33 2025
+finance note||NVDA earnings released! Market expectations exceeded. Huge volume spike today. 2025 will be volatile||Thu Jul 31 07:55:53 2025
