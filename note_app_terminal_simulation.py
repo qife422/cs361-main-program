@@ -106,24 +106,14 @@ def search_notes():
     except (IndexError, ValueError):
         framed_print("Invalid choice.")
 
-def delete_note_stub():
-    print_header("Delete Note")
-    framed_print("Feature under development. Stay tuned!")
-
-def export_notes_stub():
-    print_header("Export Notes")
-    framed_print("Feature under development. Stay tuned!")
-
 def main():
     while True:
         print_header("Home Page")
         print("1. Create Note")
         print("2. View Notes")
         print("3. Search Notes")
-        print("4. Delete Note (stub)")
-        print("5. Export Notes (stub)")
-        print("6. Exit")
-        choice = input("Choose an option (1-6): ")
+        print("4. Exit")
+        choice = input("Choose an option (1-4): ")
         if choice == "1":
             create_note()
         elif choice == "2":
@@ -131,14 +121,11 @@ def main():
         elif choice == "3":
             search_notes()
         elif choice == "4":
-            delete_note_stub()
-        elif choice == "5":
-            export_notes_stub()
-        elif choice == "6":
             framed_print("Goodbye!")
             break
         else:
-            framed_print("Invalid choice. Please enter a number from 1 to 6.")
+            framed_print("Invalid choice. Please enter a number from 1 to 4.")
 
 if __name__ == "__main__":
     main()
+
